@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/90d77b2020.js" crossorigin="anonymous"></script>
+    <title>Leif Eriksson</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/leif-eriksson.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="layar-dalam">
+        <div class="logo">
+          <a href=""><img src="/src/logo leif.jpg" class="putih" /></a>
+          <a href=""><img src="/src/logo leif.jpg" class="hitam" /></a>
+        </div>
+        <div class="menu">
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contact">End</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="layar-penuh">
+      <header id="home">
+        <div>
+          <section>
+              <div class="container">
+                  <div class="card">
+                      <div class="content">
+                          <div class="image"><img src="/src/sadam.jpeg"><img class="img-top" src="/src/Foto Sadam.jpg"></div>
+                          <div class="contents">
+                              <h3>Sadam Al Rasyid<br><span>Ketua</span></h3>
+                          </div>
+                      </div>
+                      <ul class="sci">
+                      <li style="--i:1">
+                          <a href="https://github.com/Sadam1122" target="_blank"><i class="fab fa-github"></i></a>
+                      </li>
+                      <li style="--i:2">
+                          <a href="https://www.instagram.com/sadamalrasyid1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li style="--i:3">
+                          <a href="#" target="_blank"><i class="fab fa-facebook"></i></i></a>
+                      </li>
+                      </ul>
+                  </div>
+                  <div class="card">
+                      <div class="content">
+                          <div class="image"><img src="/src/vincen.jpeg"><img class="img-top" src="/src/vincent.jpeg"></div>
+                          <div class="contents">
+                              <h3>Vincentius A. F. Antu<br><span>MVP</span></h3>
+                          </div>
+                      </div>
+                      <ul class="sci">
+                      <li style="--i:1">
+                          <a href="https://github.com/vincentiusantu" target="_blank"><i class="fab fa-github"></i></a>
+                      </li>
+                      <li style="--i:2">
+                          <a href="https://www.instagram.com/vincentiusantu" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li style="--i:3">
+                          <a href="#" target="_blank"><i class="fab fa-facebook"></i></i></a>
+                      </li>
+                          </li>
+                      </ul>
+                  </div>
+      
+                  <div class="card">
+                      <div class="content">
+                          <div class="image"><img src="/src/nadya.jpeg"><img class="img-top" src="/src/nadyas.jpeg"></div>
+                          <div class="contents">
+                              <h3>Nadya Alifia C.<br><span>Initiator</span></h3>
+                          </div>
+                      </div>
+                      <ul class="sci">
+                      <li style="--i:1">
+                          <a href="https://github.com/AlifiaNadya2003" target="_blank"><i class="fab fa-github"></i></a>
+                      </li>
+                      <li style="--i:2">
+                          <a href="https://www.instagram.com/n_a25a_n" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li style="--i:3">
+                          <a href="#" target="_blank"><i class="fab fa-facebook"></i></i></a>
+                      </li>
+                      </ul>
+                  </div>
+      
+                  <div class="card">
+                      <div class="content">
+                          <div class="image"><img src="/src/sultan.jpeg"><img class="img-top" src="/src/sultans.jpeg"></div>
+                          <div class="contents">
+                              <h3>Sultan Zhorgy P. H<br><span>Support</span></h3>
+                          </div>
+                      </div>
+                      <ul class="sci">
+                      <li style="--i:1">
+                          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                      </li>
+                      <li style="--i:2">
+                          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li style="--i:3">
+                          <a href="#" target="_blank"><i class="fab fa-facebook"></i></i></a>
+                      </li>
+                      </ul>
+                  </div>
+              </div>
+      </div>
+      <div class="containswitch">
+        <div class="switch">
+            <h3 id="button" onclick="switchtheme()">Light</h3>
+        </div>
+    </div>
+  
+      </header>
+      <main>
+        <section id="aboutus">
+          <div class="layar-dalam">
+            <h3>About Us</h3>
+            <p class="ringkasan">
+              Kami Dari Kelompok Leif Eriksson
+            </p>
+            <div class="konten-isi">
+              <p>
+                Mempersembahkan Web Untuk Melihat Suhu Kota Realtime
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="abuabu" id="support">
+          <div class="layar-dalam support">
+            <div>
+              <img src="src/matahari.png" />
+              <h6>Suhu</h6>
+              <p>Suhu pada Saat Ini : <span id="cuaca"></span>^C</p>
+            </div>
+            <div>
+              <img src="src/kompas.png" />
+              <h6>Kota</h6>
+              <p>
+                Bandung
+              </p>
+            </div>
+            <div>
+              <img src="src/jam.png" />
+              <h6>Date</h6>
+              <p>13 Desember 2022</p>
+            </div>
+          </div>
+        </section>
+      <footer id="contact">
+        <div class="layar-dalam">
+          <div>
+            <h5>Info</h5>
+            Leif Eriksson
+          </div>
+          <div>
+            <h5>Contact</h5>
+            +62 896 7002 3375
+          </div>
+          <div>
+            <h5>Help</h5>
+            @leiferiksson@gmail.com
+          </div>
+          <div>
+            <h5>Sitemap</h5>
+            Bojong Soang pride
+          </div>
+        </div>
+        <div class="layar-dalam">
+          <div class="copyright">&copy; 2022 copyright</div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/ripples.js"></script>
+    <script src="/darkmode.js"></script>
+    <script src="/cuaca.js"></script>
+  </body>
+</html>
